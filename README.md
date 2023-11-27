@@ -1,7 +1,5 @@
-{{cookiecutter.project_name}}
-==============================
-
-{{cookiecutter.description}}
+Wine Quality Prediction Analysis
+By using Wine quality data, I build a model to predict good wine quality.
 
 Project Organization
 ------------
@@ -19,14 +17,17 @@ Project Organization
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks          <- Data wrangling, feature engineering, transform and modeling
+    │   ├── 2 data wrangling.ipynb        
+    │   ├── 3_exploratory_data analysis_wine_quality.ipynb 
+    │   ├── DataPreprocessing.ipynb
+    │   └── modeling.ipynb
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
+    │   ├── report.pdf     <- Final report of the project
+    │   └── report.pptx    <- Final presentation of the project
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
